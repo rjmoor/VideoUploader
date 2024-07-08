@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/VideoUploader" element={<App />} />
         <Route path="/confirmation" element={<Confirmation />} />
       </Routes>
     </Router>
